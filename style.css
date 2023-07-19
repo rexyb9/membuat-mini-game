@@ -1,0 +1,43 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.summary {
+    border: 5px solid blanchedalmond;
+    padding: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pilihan {
+    margin-top: 25px;
+    display: flex;
+    padding: 15px;
+}
+
+.pilihan1,
+.pilihan2,
+.pilihan3 {
+    margin-right: 5px;
+    background-color: antiquewhite;
+    padding: 50px;
+    font-size: 39px;
+    cursor: pointer;
+}
